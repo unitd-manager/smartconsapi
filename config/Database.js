@@ -3,8 +3,8 @@ var db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '',
-    database: 'pyramiddev',
-    //database: 'pyramid'
+    database: 'newsmartcon',
+   
 });
 db.connect(); 
 module.exports = db;
